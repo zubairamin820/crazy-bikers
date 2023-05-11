@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INT650 Accessories</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="int650.css">
+    <link rel="icon" href="assets/images/bikers.png">
+    <style>
+
+    </style>
+</head>
+<body>
+
+    <header class="header-area header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                         <a href="index.html" class="logo">CRAZY<em> BIKERS</em></a>
+                        <ul class="nav">
+                            <li class="scroll-to-section"><a href="motorcyle.html" >Motorcycle</a></li>
+                            <li class="scroll-to-section"><a href="accessories.html" class="active">Accessories</a></li>
+                            <li class="scroll-to-section"><a href="brands.html">Brands</a></li>
+                            <li class="scroll-to-section"><a href="world.html">Our world</a></li> 
+                            <button type="button" class="video-btn"  data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="width: 100px;font-weight: 600;"> Signup</button>                            
+                        </ul> 
+                        <a class='menu-trigger'>
+                            <span>Menu</span>
+                        </a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+aria-labelledby="staticBackdropLabel" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+        <div class="modal-header border border-white">
+            <h4 class="modal-title login-title" id="staticBackdropLabel" style="color: #ed563b; font-size: 25px;">LOGIN</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form>
+
+                <div class="mb-2">
+
+                    <label for="recipient-name" class="col-form-label" style="color: #ed563b;">Email</label>
+
+                    <input type="email" placeholder="Enter Your Email" class="form-control logininput"
+                        required id="recipient-name">
+
+                </div>
+                <div class="mb-2">
+                    <label for="recipient-name" class="col-form-label" style="color: #ed563b;">Password</label>
+
+                    <input type="password" placeholder="Your Password" class="form-control logininput" required
+                        id="recipient-name">
+                </div>
+                <div class="modal-footer border border-white">
+
+                    <p>Not a member?</p>
+                    <a href="Sign up modal.html" class="text-secondary" data-bs-toggle="modal" data-bs-target="#signup">Sign up now</a>
+
+                    <button type="submit" class="video-btn">Login</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+</div>
+<div class="modal fade" id="signup" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+aria-labelledby="staticBackdropLabel" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered">
+  <div class="modal-content">
+      <div class="modal-header border border-white">
+          <h4 class="modal-title login-title" id="staticBackdropLabel" style="color: #ed563b;font-size: 25px;">SIGN UP</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+          <form>
+              <div class="mb-2">
+                  <label for="recipient-name" class="col-form-label" style="color: #ed563b;">Full Name</label>
+                  <input type="text" placeholder="Your Full Name" class="form-control logininput" required
+                      id="recipient-name">
+              </div>
+              <div class="mb-2">
+                  <label for="recipient-name" class="col-form-label" style="color: #ed563b;">Email</label>
+                  <input type="email" placeholder="Enter Your Email" class="form-control logininput"
+                      required id="recipient-name">
+              </div>
+
+              <div class="mb-2">
+                  <label for="recipient-name" class="col-form-label" style="color: #ed563b;">Phone Number</label>
+                  <input type="text" placeholder="Your Phone Number" class="form-control logininput" required
+                      id="recipient-name">
+              </div>
+              <div class="mb-2">
+                  <label for="recipient-name" class="col-form-label" style="color: #ed563b;">Password</label>
+                  <input type="password" placeholder="Your Password" class="form-control logininput" required
+                      id="recipient-name">
+              </div>
+              <div class="mb-2">
+                  <label for="recipient-name" class="col-form-label" style="color:#ed563b;">Confirm Password</label>
+                  <input type="password" placeholder="Confirm Your Password" class="form-control logininput"
+                      required id="recipient-name">
+              </div>
+              <div class="modal-footer border border-white">
+                  <button type="submit" class="video-btn">Sign up</button>
+              </div>
+          </form>
+      </div>
+  </div>
+</div>
+</div>
+
+    <!-- navbar end -->
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+   <!-- ***** Main Banner Area Start ***** -->
+   <div class="main-banner" id="top">
+
+    <video autoplay muted loop id="bg-video">
+        <source src="assets/images/video3.mp4" type="video/mp4" />
+    </video>
+
+   </div>
+<!-- banner end -->
+
+<br>
+<br>
+
+<!-- <div class="masthead" style="background-image: url('assets/images/b3.png');">
+  br
+  br
+
+</div> -->
+<div class="col-12">
+<div class="img-banner">
+    <img src="assets/images/INT-650.png" alt="">
+</div>
+</div>
+
+
+<br>
+<br>
+
+
+<h1>INT <em> 650 ACCESSORIES</em></h1>
+<hr>
+<br>
+<br>
+<p style="color: white;text-align: center;">*MSRP is listed in U.S. dollars (USD). Dealer pricing may vary.</p>
+<br>
+<p style="color: white;text-align: center;">*Images are for representation purposes only. The actual product may differ from those shown.</p>
+<br>
+
+<div class="container">
+    <div class="row">
+
+                    <div class="col-6 col-md-6 col-lg-3">
+                        <div class="card">
+                            <img src="assets/images/cla1.jpg" alt="" class="card-img-top">
+                        </div>
+                        <div class="card-body">
+                            <h4>PASSENGER TOURING (miror)</h4>
+                            <p>MSRP $94.95
+                                Description: Add to that retro style with the short tinted flyscreen. A dark tinted screen with stainless steel embellisher adds a layer of wind protection when you ride. DOT Certified
+                                
+                                Part Number: 1990413.</p>
+                                <a href=""><button type="button">Click Now</button></a>                    
+                        </div>
+                    </div>
+
+                  
+                    <div class="col-6 col-md-6 col-lg-3">
+                        <div class="card">
+                            <img src="assets/images/cla2.jpg" alt="" class="card-img-top">
+                        </div>
+                        <div class="card-body">
+                            <h4>RIDER TOURING (miror)</h4>
+                            <p>MSRP $249.95
+                                Description: Bar end style mirrors to give your Continental GT a sleek, café-racer look.
+                                
+                                Part Number: 1990401</p>
+                                <a<a href=""><button type="button">Click Now</button></a>                        
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-6 col-lg-3">
+                        <div class="card">
+                            <img src="assets/images/cla3.jpg" alt="" class="card-img-top">
+                        </div>
+                        <div class="card-body">
+                            <h4>TOURING MIRRORS</h4>
+                            <p>MSRP $239.95
+                                Description: Fully homologated Royal Enfield branded mirrors. They have been forged and machined with aluminium stems to offer better strength and stability for longer rides.
+                                
+                                Part Number: 1990454</p>
+                                <a href=""><button type="button">Click Now</button></a>                      
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-6 col-lg-3">
+                        <div class="card">
+                            <img src="assets/images/cla4.jpg" alt="" class="card-img-top">
+                        </div>
+                        <div class="card-body">
+                            <h4>SOFT PANNIERS (BLACK)</h4>
+                            <p>MSRP $274.95
+                                Description: Sling them over your shoulder or slide them onto the mounting rails, this water-resistant pair of roll-top panniers is as versatile on the bike as off it. They come with quick release</p>
+                                <a href=""><button type="button">Click Now</button></a>                     
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-6 col-lg-3">
+                        <div class="card">
+                            <img src="assets/images/hel8.jpg" alt="" class="card-img-top">
+                        </div>
+                        <div class="card-body">
+                            <h4>PANNIER MOUNTING KIT</h4>
+                            <p>MSRP $67.99
+                                Description: Mounting rail kit to attach soft panniers to your Royal Enfield Twin.
+                                
+                                Part Number: 1990411</p>
+                                <a href=""><button type="button">Click Now</button></a>                    
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-6 col-lg-3">
+                        <div class="card">
+                            <img src="assets/images/hel9.jpg" alt="" class="card-img-top">
+                        </div>
+                        <div class="card-body">
+                            <h4>COMPACT ENGINE GUARD (BLACK)</h4>
+                            <p>MSRP $184.99
+                                Description: Engine protection guards fabricated from 25mm stainless steel tube. Its’ stealth fitment adds a discrete layer of protection.
+                                
+                                Part Number: 1990408</p>
+                                <a href=""><button type="button">Click Now</button></a>                      
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-6 col-lg-3">
+                        <div class="card">
+                            <img src="assets/images/hel10.jpg" alt="" class="card-img-top">
+                        </div>
+                        <div class="card-body">
+                            <h4>COMPACT ENGINE GUARD (SILVER)</h4>
+                            <p>MSRP $184.99
+                                Description: Engine protection guards fabricated from 25mm stainless steel tube. Its’ stealth fitment adds a discrete layer of protection.
+                                
+                                Part Number: 1990406.</p>
+                                <a href=""><button type="button">Click Now</button></a>                      
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-6 col-lg-3">
+                        <div class="card">
+                            <img src="assets/images/hel11.jpg" alt="" class="card-img-top">
+                        </div>
+                        <div class="card-body">
+                            <h4>SINGLE SEAT COWL</h4>
+                            <p>MSRP $124.95
+                                Description: Painted seat cowl color matched to your Continental GT.
+                                
+                                *Requires Single Rider Seat, Sold Separately.
+                                
+                                Black Magic: 1990425
+                                
+                                Ventura Blue: 1990431.</p>
+                                <a href=""><button type="button">Click Now</button></a>
+                        </div>
+                    </div>
+
+    </div>
+</div>
+
+<br>
+<br>
+
+
+<h1>GENERAL <em>   ACCESSORIES</em></h1>
+
+<hr>
+<br>
+<br>
+
+<div class="container">
+    <div class="row">
+
+<div class="col-6 col-md-6 col-lg-3">
+    <div class="card">
+        <img src="assets/images/bake1.jpg" alt="" class="card-img-top">
+    </div>
+    <div class="card-body">
+        <h4>WATER-RESISTANT BIKE COVER (BLACK)</h4>
+        <p>MSRP $124.95
+            Description: Painted seat cowl color matched to your Continental GT.
+            
+            *Requires Single Rider Seat, Sold Separately.
+            
+            Black Magic: 1990425
+            
+            Ventura Blue: 1990431.</p>
+            <a href=""><button type="button">Click Now</button></a>
+    </div>
+</div>
+
+
+<div class="col-6 col-md-6 col-lg-3">
+    <div class="card">
+        <img src="assets/images/bake2.jpg" alt="" class="card-img-top">
+    </div>
+    <div class="card-body">
+        <h4>WATER-RESISTANT BIKE COVER (NAVY)</h4>
+        <p>MSRP $124.95
+            Description: Painted seat cowl color matched to your Continental GT.
+            
+            *Requires Single Rider Seat, Sold Separately.
+            
+            Black Magic: 1990425
+            
+            Ventura Blue: 1990431.</p>
+            <a href=""><button type="button">Click Now</button></a>
+    </div>
+</div>
+
+<div class="col-6 col-md-6 col-lg-3">
+    <div class="card">
+        <img src="assets/images/hel11.jpg" alt="" class="card-img-top">
+    </div>
+    <div class="card-body">
+        <h4>SINGLE SEAT COWL</h4>
+        <p>MSRP $124.95
+            Description: Painted seat cowl color matched to your Continental GT.
+            
+            *Requires Single Rider Seat, Sold Separately.
+            
+            Black Magic: 1990425
+            
+            Ventura Blue: 1990431.</p>
+            <a href=""><button type="button">Click Now</button></a>
+    </div>
+</div>
+
+<div class="col-6 col-md-6 col-lg-3">
+    <div class="card">
+        <img src="assets/images/bake4.jpg" alt="" class="card-img-top">
+    </div>
+    <div class="card-body">
+        <h4>SINGLE  COWL</h4>
+        <p>MSRP $124.95
+            Description: Painted seat cowl color matched to your Continental GT.
+            
+            *Requires Single Rider Seat, Sold Separately.
+            
+            Black Magic: 1990425
+            
+            Ventura Blue: 1990431.</p>
+            <a href=""><button type="button">Click Now</button></a>
+    </div>
+</div>
+</div>
+</div>
+
+<div class="head-2" class="container-fluid">
+  <a href="#" style="text-decoration:none;color: black;"><h3 style="margin-left: 20px;font-size: 35px;text-align: center;">FIND YOUR NEAREST  DEALER</h3></a>
+  <p style="color: black;text-align: center;">Contact a Dealer For A Neccessories For You</p>
+</div>
+<br>
+<div class="container">
+  <div class="row">
+      <div class="col-lg-6 col-md-12 col-sm-12">
+          
+              
+              <label>Which apparel are you interested in?</label>
+              <br>
+              <input type="text" placeholder="Please list the item number here.">
+              <br>
+              <br>
+              <label>Confirm Desired Size</label>
+              <br>
+              <select id="inp">
+                  <option value="Small">Small</option>
+                  <option value="Medium">Medium</option>
+                  <option value="Large">Large</option>
+                  <option value="XL">XL</option>
+                  <option value="3XL">3XL</option>
+                  <option value="2XL">2XL</option>
+              </select>
+              <br>
+              <br>
+              <label>Name</label>
+              <br>
+              <input type="text" placeholder="First Name">
+              <br>
+              <br>
+              <label>Father Name</label>
+              <br>
+              <input type="text" placeholder="Last Name">
+             <br>
+             <br>
+             <label>Email-Adrees</label>
+             <br>
+             <input type="text" placeholder="Type Email">
+             <br>
+             <br>
+             <label>Phone Number</label>
+             <br>
+             <input type="text" placeholder="Enter Your Number">
+              <br>
+              <br>
+              <label>Zip Code</label>
+              <br>
+             <input type="text" placeholder="Enter Code">
+             <br>
+             <br>
+             <a href=""><button type="button" class="button-end">SUBMIT</button></a>
+            
+          
+                
+      </div>
+
+      <div class="col-lg-6 col-md-12 col-sm-12">
+        <div class="card-body">
+        <img src="assets/images/yahama5.webp" alt="" class="card-img-top" style="height: 600px;border-radius: 20px;">
+      </div>
+      </div>
+  </div>
+</div>
+
+
+
+<br>
+<br>
+  <!-- footer ha ya  -->
+
+
+  <!-- Footer -->
+  <footer class="text-center text-lg-start bg-dark text-white footer-bg-color" style="margin-top: -20px;">
+    <section class="pt-1 mt-3">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4" style="font-size: 20px;">
+              <i class="fa-solid fa-motorcycle" style="margin-right: 10px;"></i>Crazy Bikers</h6>
+            <p style="color: white;">
+              The Aussie’s love to hoon anything with an engine, and motorcycles are no exception! There have been numerous great motorcycles interesting ideas as well!            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 brands-name">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4" style="margin-left: -20px;">
+              Brands
+            </h6>
+            <div class="mini-brands">
+            <p>
+              <a href="#!" class="brand-text">Aprilia</a>
+            </p>
+            <p>
+              <a href="#!" class="brand-text">Ducate.</a>
+            </p>
+            <p>
+              <a href="#!" class="brand-text">Honda</a>
+            </p>
+            <p>
+              <a href="#!" class="brand-text">Suzuki</a>
+            </p>
+            <p>
+              <a href="#!" class="brand-text">Royal Enfield</a>
+            </p>
+          </div>
+        </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 text-center">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Useful links
+            </h6>
+            <p>
+              <a href="#" class="me-4 link-secondary icon-hover">
+                <i class="fab fa-facebook-f" style="font-size: 22px;"></i>
+              </a>
+            </p>
+            <p>
+              <a href="#" class="me-4 link-secondary icon-hover">
+                <i class="fab fa-twitter" style="font-size: 22px;"></i>
+              </a>
+            </p>
+            <p>
+              <a href="#" class="me-4 link-secondary icon-hover">
+                <i class="fab fa-instagram" style="font-size: 22px;"></i>
+              </a>
+            </p>
+            <p>
+              <a href="#" class="me-4 link-secondary icon-hover">
+                <i class="fab fa-linkedin" style="font-size: 22px;"></i>
+              </a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p style="color: white;"><i class="fas fa-home me-3 text-secondary"  style="font-size: 20px; "></i>Aptech North Karachi</p>
+              <p style="color: white;"><i class="fas fa-envelope me-3 text-secondary"  style="font-size: 20px; "></i>zubairamin820@gmail.com</p>
+            <p style="color: white;"><i class="fas fa-phone me-3 text-secondary"  style="font-size: 20px;"></i> +923182933775</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+      © 2023 Copyright:
+      <a class="fw-bold brand-text" href="#" style="color: white;">www.crazybikers.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+  
+    <!-- jQuery -->
+    <script src="assets/js/jquery-2.1.0.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- Plugins -->
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/imgfix.min.js"></script> 
+    <script src="assets/js/mixitup.js"></script> 
+    <script src="assets/js/accordions.js"></script>
+    
+    <!-- Global Init -->
+    <script src="assets/js/custom.js"></script>
+</body>
+</html>

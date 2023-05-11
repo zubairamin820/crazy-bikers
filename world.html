@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Brands By Country</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="accessories.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/images/bikers.png">
+
+<body>
+
+    <!-- navar start -->
+    <header class="header-area header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                         <a href="index.html" class="logo">CRAZY<em> BIKERS</em></a>
+                        <ul class="nav">
+                            <li class="scroll-to-section"><a href="brands.html" >Motorcycle</a></li>
+                            <li class="scroll-to-section"><a href="accessories.html" >Accessories</a></li>
+                            <li class="scroll-to-section"><a href="brands.html">Brands</a></li>
+                            <li class="scroll-to-section"><a href="world.html" class="active">Our world</a></li> 
+                            <button type="button" class="video-btn"  data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="width: 100px;font-weight: 600;"> Signup</button>                            
+                        </ul> 
+                        <a class='menu-trigger'>
+                            <span>Menu</span>
+                        </a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header border border-white">
+                <h4 class="modal-title login-title" id="staticBackdropLabel" style="color: #ed563b; font-size: 25px;">LOGIN</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+
+                    <div class="mb-2">
+
+                        <label for="recipient-name" class="col-form-label" style="color: #ed563b;">Email</label>
+
+                        <input type="email" placeholder="Enter Your Email" class="form-control logininput"
+                            required id="recipient-name">
+
+                    </div>
+                    <div class="mb-2">
+                        <label for="recipient-name" class="col-form-label" style="color: #ed563b;">Password</label>
+
+                        <input type="password" placeholder="Your Password" class="form-control logininput" required
+                            id="recipient-name">
+                    </div>
+                    <div class="checkboss">
+                        <input type="checkbox" id="check">
+                        <label for="check" style="color: #ed563b;">Remember Me</label>
+                    </div>
+                    <div class="modal-footer border border-white">
+
+                        <p>Not a member?</p>
+                        <a href="Sign up modal.html" class="text-secondary" data-bs-toggle="modal" data-bs-target="#signup">Sign up now</a>
+
+                        <button type="submit" class="video-btn">Login</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="signup" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+  aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+          <div class="modal-header border border-white">
+              <h4 class="modal-title login-title" id="staticBackdropLabel" style="color: #ed563b;font-size: 25px;">SIGN UP</h4>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+              <form>
+                  <div class="mb-2">
+                      <label for="recipient-name" class="col-form-label" style="color: #ed563b;">Full Name</label>
+                      <input type="text" placeholder="Your Full Name" class="form-control logininput" required
+                          id="recipient-name">
+                  </div>
+                  <div class="mb-2">
+                      <label for="recipient-name" class="col-form-label" style="color: #ed563b;">Email</label>
+                      <input type="email" placeholder="Enter Your Email" class="form-control logininput"
+                          required id="recipient-name">
+                  </div>
+
+                  <div class="mb-2">
+                      <label for="recipient-name" class="col-form-label" style="color: #ed563b;">Phone Number</label>
+                      <input type="text" placeholder="Your Phone Number" class="form-control logininput" required
+                          id="recipient-name">
+                  </div>
+                  <div class="mb-2">
+                      <label for="recipient-name" class="col-form-label" style="color: #ed563b;">Password</label>
+                      <input type="password" placeholder="Your Password" class="form-control logininput" required
+                          id="recipient-name">
+                  </div>
+                  <div class="mb-2">
+                      <label for="recipient-name" class="col-form-label" style="color:#ed563b;">Confirm Password</label>
+                      <input type="password" placeholder="Confirm Your Password" class="form-control logininput"
+                          required id="recipient-name">
+                  </div>
+                  <div class="modal-footer border border-white">
+                      <button type="submit" class="video-btn">Sign up</button>
+                  </div>
+              </form>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+    
+
+    <!-- navbar end -->
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    <div class="wrapper">
+        <h1 class="text-white">Motorcyle Brands <em style="color: #ed563b;"> by Country of Origin</em></h1>
+        <hr class="mx-auto mb-5 w-50" style="color: white;">
+        <div class="cols">
+                  <div class="col-12 col-md-6 col-lg-6 col-sm-12" ontouchstart="this.classList.toggle('hover');">
+                    <a href="#">
+                      <div class="container">
+                          <div class="front" style="background-image: url(assets/images/ameco.jpg)">
+                              <div class="inner">
+                                  <p>American Brands</p>
+                    <span>1700 SBC</span>
+                              </div>
+                          </div>
+                          <div class="back">
+                              <div class="inner" >
+                                <P>When most people think of American-made motorcycles, they think of heavy iron and chrome machines from Harley and the like, but American motorcycle brands .</P>
+                            </div>
+                          </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-12 col-md-6 col-lg-6 col-sm-12" ontouchstart="this.classList.toggle('hover');">
+                    <a href="#">
+                    <div class="container">
+                        <div class="front" style="background-image: url(assets/images/yamaha.jpg)">
+                            <div class="inner">
+                                <p>Australian Brands</p>
+                  <span>25000 KUL</span>
+                            </div>
+                        </div>
+                        <div class="back">
+                            <div class="inner">
+                                <P>The Aussie’s love to hoon anything with an engine, and motorcycles are no exception! There have been numerous great motorcycles build down under, and some innovative brands with interesting ideas as well!.</P>
+                            </div>
+                        </div>
+                    </div>
+                  </a>
+                </div>
+                </div>
+            </div>
+    
+    
+    <br>
+    <br>
+    
+                  
+    <div class="wrapper">
+        <div class="cols">
+                  <div class="col-12 col-md-6 col-lg-6 col-sm-12" ontouchstart="this.classList.toggle('hover');">
+                    <a href="#">
+                      <div class="container">
+                          <div class="front" style="background-image: url(assets/images/BMW3.jpg)">
+                              <div class="inner">
+                                  <p>British Brands</p>
+                    <span>3000 SAE</span>
+                              </div>
+                          </div>
+                          <div class="back">
+                              <div class="inner">
+                                <p>Brits love their powered machines, whether they’ve got two or four wheels, and their legacy in Powersports is both long-lasting and far-reaching..</p>
+                            </div>
+                          </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-12 col-md-6 col-lg-6 col-sm-12" ontouchstart="this.classList.toggle('hover');">
+                    <a href="#">
+                      <div class="container">
+                          <div class="front" style="background-image: url(assets/images/ducati2.jpg)">
+                              <div class="inner">
+                                  <p>Chines Brands</p>
+                    <span>5000 CCI</span>
+                              </div>
+                          </div>
+                          <div class="back">
+                              <div class="inner">
+                              <p>Ducati is proud to represent Italian industry - the essence of Italian style shows through the design of each bike.</p>
+                            </div>
+                          </div>
+                      </div>
+                    </a>
+                  </div>
+       </div>
+       </div>
+    
+    
+        
+    <br>
+    <br>
+    
+    
+    <div class="wrapper">
+        <div class="cols">
+                  <div class="col-12 col-md-6 col-lg-6 col-sm-12" ontouchstart="this.classList.toggle('hover');">
+                    <a href="#">
+                    <div class="container">
+                        <div class="front" style="background-image: url(assets/images/kawaski4.webp)">
+                            <div class="inner">
+                                <p>Europen Brands</p>
+                  <span>15000 rgbs</span>
+                            </div>
+                        </div>
+                        <div class="back">
+                            <div class="inner">
+                              <p>he Chinese automotive industry is rapidly modernizing and scaling, and the motorcycle industry is included in this momentum. </p>
+                          </div>
+                        </div>
+                    </div>
+                  </a>
+                </div>
+                  <div class="col-12 col-md-6 col-lg-6 col-sm-12" ontouchstart="this.classList.toggle('hover');">
+                    <a href="#">
+                      <div class="container">
+                          <div class="front" style="background-image: url(assets/images/kawaski5.jpg)">
+                              <div class="inner">
+                                  <p>Indian Brands</p>
+                    <span>20000 rgbs</span>
+                              </div>
+                          </div>
+                          <div class="back">
+                              <div class="inner">
+                                <p>Kawasaki motorcycles are manufactured by the Motorcycle & Engine division of Kawasaki Heavy Industries</p>
+                            </div>
+                          </div>
+                      </div>
+                    </a>
+                  </div>
+       </div>
+       </div>
+    
+    <br>
+    <br>
+    
+    <div class="wrapper">
+        <div class="cols">
+                  <div class="col-12 col-md-6 col-lg-6 col-sm-12" ontouchstart="this.classList.toggle('hover');">
+                    <a href="#">
+                      <div class="container">
+                          <div class="front" style="background-image: url(assets/images/BMW3.jpg)">
+                              <div class="inner">
+                                  <p>Italian Brands</p>
+                    <span>5000 HB</span>
+                              </div>
+                          </div>
+                          <div class="back">
+                              <div class="inner">
+                                <P>Bayerische Motoren Werke AG, abbreviated as BMW is a German multinational manufacturer of luxury vehicles and motorcycles</P>
+                              </div>
+                          </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-12 col-md-6 col-lg-6 col-sm-12" ontouchstart="this.classList.toggle('hover');">
+                    <a href="#">
+                      <div class="container">
+                          <div class="front" style="background-image: url(assets/images/BMW4.jpg)">
+                              <div class="inner">
+                                  <p>Japanies Brands</p>
+                    <span>1100 QR</span>
+                              </div>
+                          </div>
+                          <div class="back">
+                              <div class="inner">
+                                <P>Bayerische Motoren Werke AG, abbreviated as BMW is a German multinational manufacturer of luxury vehicles and motorcycles</P>
+                            </div>
+                          </div>
+                      </div>
+                    </a>
+                  </div>
+       </div>
+       </div>
+    <br>
+    <br>
+    
+    <div class="wrapper">
+        <div class="cols">
+                  <div class="col-12 col-md-6 col-lg-6 col-sm-12" ontouchstart="this.classList.toggle('hover');">
+                    <a href="#">
+                      <div class="container">
+                          <div class="front" style="background-image: url(assets/images/yamaha3.jpg)">
+                              <div class="inner">
+                                  <p>Russian Brands</p>
+                    <span>1500 CBS</span>
+                              </div>
+                          </div>
+                          <div class="back">
+                              <div class="inner">
+                                <p>Yamaha Motor Co., Ltd is a Japanese multinational manufacturer of motorcycles, marine products such as boats and outboard motors .</p>
+                            </div>
+                          </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-12 col-md-6 col-lg-6 col-sm-12" ontouchstart="this.classList.toggle('hover');">
+                    <a href="#">
+                      <div class="container">
+                          <div class="front" style="background-image: url(assets/images/royal37.jpeg)">
+                              <div class="inner">
+                                  <p>Spanish Brands</p>
+                    <span>422 CBS</span>
+                              </div>
+                          </div>
+                          <div class="back">
+                              <div class="inner">
+                                  <p>Yamaha Motor Co., Ltd is a Japanese multinational manufacturer of motorcycles, marine products such as boats and outboard motors .</p>
+                              </div>
+                          </div>
+                      </div>
+                    </a>
+                  </div>
+       </div>
+       </div>
+    
+       <br>
+       <br>
+       <br>
+       <br>
+    
+<div class="container container-fluid">
+       <section class="text-center">
+
+
+        <h3 class="mb-5 text-white">Contact Us</h3>
+      
+        <div class="row">
+          <div class="col-lg-5">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12094.57348593182!2d-74.00599512526003!3d40.72586666928451!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2598f988156a9%3A0xd54629bdf9d61d68!2sBroadway-Lafayette%20St!5e0!3m2!1spl!2spl!4v1624523797308!5m2!1spl!2spl"
+              class="h-100 w-100" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+      
+          <div class="col-lg-7">
+            <form>
+              <div class="row">
+                <div class="col-md-9">
+                  <div class="row mb-4">
+                    <div class="col-md-6 mb-4 mb-md-0">
+                      <div class="form-outline">
+                        <input type="text" id="form3Example1" class="form-control" placeholder="First Name" style="color: black;"/>
+                        <!-- <label class="form-label" for="form3Example1">First name</label> -->
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-outline">
+                        <input type="email" id="form3Example2" class="form-control"  placeholder="Email-Adrees" style="color: black;"/>
+                        <!-- <label class="form-label" for="form3Example2">Email Address</label> -->
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-outline mb-4">
+                    <input type="text" id="form3Example3" class="form-control" placeholder="Subject" style="color: black;" />
+                    <!-- <label class="form-label" for="form3Example3">Subject</label> -->
+                  </div>
+                  <div class="form-outline mb-4">
+                    <textarea class="form-control" id="form4Example3" rows="4" placeholder="Message" style="color: black;"></textarea>
+                    <!-- <label class="form-label" for="form4Example3">Message</label> -->
+                  </div>
+                  <div class="text-center text-md-start">
+                    <button type="submit" class="btn btn-primary mb-5 mb-md-0 video-btn">
+                      Send
+                    </button>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <ul class="list-unstyled">
+                    <li>
+                      <i class="fas fa-map-marker-alt fa-2x " style="color: #ed563b;"></i>
+                      <p class="text-white"><small>Aptech North Karachi</small></p>
+                    </li>
+                    <li>
+                      <i class="fas fa-phone fa-2x " style="color: #ed563b;"></i>
+                      <p class="text-white"><small>+ 923182933775</small></p>
+                    </li>
+                    <li>
+                      <i class="fas fa-envelope fa-2x " style="color: #ed563b;"></i>
+                      <p class="text-white"><small>zubairamin820@gmail.com</small></p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </form>
+      
+          </div>
+        </div>
+      
+      
+      </section>
+    </div>
+    
+    <br>
+    <br>
+
+
+       <div class="head-2" class="container-fluid">
+         <a href="gallery2.html" style="text-decoration:none;color: white;"><h3 style="margin-left: 20px;">Gallery <span>| Pakistan Best Bikes</span></h3></a>
+       </div>
+       
+       
+       <div class="masthead" style="background-image: url('assets/images/banner2.png');">
+         
+       </div>
+       <a href="gallery2.html"><button type="button" style="width: 100%;padding: 20PX ;margin-top: -5px; background:black;color: white;"class="big-button ">Explore Now >></button></a>
+       
+         <!-- maps location -->
+       
+       
+       
+
+
+
+
+  <!-- Footer -->
+  <footer class="text-center text-lg-start bg-dark text-white footer-bg-color" style="margin-top: -20px;">
+    <section class="pt-1 mt-3">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4" style="font-size: 20px;color: white;">
+              <i class="fa-solid fa-motorcycle" style="margin-right: 10px;color: white;"></i>Crazy Bikers</h6>
+            <p style="color: white;">
+              The Aussie’s love to hoon anything with an engine, and motorcycles are no exception! There have been numerous great motorcycles interesting ideas as well!            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4" style="color: white; margin-left: -100px;"> Brands</h6>
+            <p>
+              <a href="#!" class="brand-text">Aprilia</a>
+            </p>
+            <p>
+              <a href="#!" class="brand-text">Ducate.</a>
+            </p>
+            <p>
+              <a href="#!" class="brand-text">Honda</a>
+            </p>
+            <p>
+              <a href="#!" class="brand-text">Suzuki</a>
+            </p>
+            <p>
+              <a href="#!" class="brand-text">Royal Enfield</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 text-center">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4" style="color: white;">
+              Useful links
+            </h6>
+            <p>
+              <a href="#" class="me-4 link-secondary icon-hover">
+                <i class="fab fa-facebook-f" style="font-size: 22px;"></i>
+              </a>
+            </p>
+            <p>
+              <a href="#" class="me-4 link-secondary icon-hover">
+                <i class="fab fa-twitter" style="font-size: 22px; "></i>
+              </a>
+            </p>
+            <p>
+              <a href="#" class="me-4 link-secondary icon-hover">
+                <i class="fab fa-instagram" style="font-size: 22px;"></i>
+              </a>
+            </p>
+            <p>
+              <a href="#" class="me-4 link-secondary icon-hover">
+                <i class="fab fa-linkedin" style="font-size: 22px;"></i>
+              </a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4" style="color: white;">Contact</h6>
+            <p style="color: white;"><i class="fas fa-home me-3 text-secondary"  style="font-size: 20px;"></i>Aptech North Karachi</p>
+              <p style="color: white;"><i class="fas fa-envelope me-3 text-secondary"  style="font-size: 20px; "></i>zubairamin820@gmail.com</p>
+            <p style="color: white;"><i class="fas fa-phone me-3 text-secondary"  style="font-size: 20px;"></i> +923182933775</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+      © 2023 Copyright:
+      <a class="fw-bold brand-text " href="#" style="color: white;margin-left: -2px;">www.crazybikers.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer --> 
+    <!-- jQuery -->
+    <script src="assets/js/jquery-2.1.0.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- Plugins -->
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/imgfix.min.js"></script> 
+    <script src="assets/js/mixitup.js"></script> 
+    <script src="assets/js/accordions.js"></script>
+    
+    <!-- Global Init -->
+    <script src="assets/js/custom.js"></script>
+</body>
+</html>
